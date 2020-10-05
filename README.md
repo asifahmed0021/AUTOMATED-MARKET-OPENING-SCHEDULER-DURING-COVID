@@ -7,7 +7,7 @@
 
 #### For example, in figure below m = 2, T = 3 and k = 4
 
-| Slot:1           | Slot:2.          | Slot:3.          | 
+| Slot:1           | Slot:2           | Slot:3           | 
 | ---------------- | ---------------- | ---------------- |
 | Type:1,2,3,4     | Type:5,6,7,8     | Type:9,10,11,12  |
 | Type:13,14,15,16 | Type:17,18,19,20 | Type:21,22,23,24 | 
