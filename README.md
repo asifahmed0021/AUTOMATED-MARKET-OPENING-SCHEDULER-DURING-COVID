@@ -1,4 +1,4 @@
-#AUTOMATED-MARKET-OPENING-SCHEDULER-DURING-COVID
+# AUTOMATED MARKET OPENING SCHEDULER DURING COVID
 
 A city has n types of shops. The government wants to create an opening schedule for the markets ensuring the safety of maximum people. Due to the current COVID situation the government wants the people to make minimum movement out of their houses. 
 
