@@ -1,8 +1,8 @@
 # AUTOMATED MARKET OPENING SCHEDULER DURING COVID
 
-## A city has n types of shops. The government wants to create an opening schedule for the markets ensuring the safety of maximum people. Due to the current COVID situation the government wants the people to make minimum movement out of their houses. 
+### A city has n types of shops. The government wants to create an opening schedule for the markets ensuring the safety of maximum people. Due to the current COVID situation the government wants the people to make minimum movement out of their houses. 
 
-## The city has m market places which can be opened parallely. In a market place during each time slot the government is planning to open k types of shops. And in a day there are a total of T time slots available. We can assume that n = T.m.k. 
+### The city has m market places which can be opened parallely. In a market place during each time slot the government is planning to open k types of shops. And in a day there are a total of T time slots available. We can assume that n = T.m.k. 
 
 We first define the characteristics of a good schedule. For any good schedule people should make minimum movement and most of the people should feel no conflict about which market they should go for purchasing.
 That is:
