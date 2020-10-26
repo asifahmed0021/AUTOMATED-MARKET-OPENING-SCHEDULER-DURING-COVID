@@ -1,0 +1,29 @@
+Approach:
+For solving the problem we have used genetic mutation algorithm.
+
+Structure of a state:
+A state(member) is shown as a 3-d list with 3 axis of:
+1)Time-slot
+2)Market number
+3)Shop type
+
+Code flow:
+Initially a parent population of population size=100 is initialised,
+each member of the population is a complete state with a random initialised value.
+The aim is to optimise the members of the population and get the one with the highest goodness value.
+
+We keep on iterating until we converge or we cross a number of iterations.
+In every iteration we make a new child population as follows:
+>We first sort the parent population according to their goodness value in decreasing order.
+>We take the first 10% of parent population as it is.
+>For rest 90% to make the child population, for each member(of child population) we choose two parents 
+from the best 50% of the parent population and then mutate them for a new child and add it in the child population.
+>To take care of repetition we make a hashmap and replace the repeated ones with the ones that 
+did not even occur.
+>After making child population we do 30 random swaps in the child population to bring some randomness
+so that a deserving state is not left behind.
+>In every iteration we compare the first member of child population with our answer
+and if it has a higher goodness value then we update the answer.
+>Finally we get the most optimum answer and print it.
+
+
