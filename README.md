@@ -35,26 +35,26 @@ G(Schedule) = s(1,2) + s(1,3) + s(1,4) + s(2,3) + s(2,4) + s(3,4) + s(5,6) + s(5
   
 ## Input Format:
 Line 1: k: total types of shops opening in one time slot in one market <br />
-Line 2: m: number of parallel markets
-Line 3: T: number of time slots
-Line 4: C: trade-off constant
-Starting on the fifth line we have a space separated list of distances between a type of shop and rest others. Note that d(x,y) = d(y,x). Also, all d(x,x) = 0.
+Line 2: m: number of parallel markets <br />
+Line 3: T: number of time slots <br />
+Line 4: C: trade-off constant <br />
+Starting on the fifth line we have a space separated list of distances between a type of shop and rest others. Note that d(x,y) = d(y,x). Also, all d(x,x) = 0. <br />
 
 ## Sample Input:
-2
-2
-1
-1
-0 0.4 0.8 1
-0.4 0 0.6 0.7
-0.8 0.6 0 0.3
-1 0.7 0.3 0
+2 <br />
+2 <br />
+1 <br />
+1 <br />
+0 0.4 0.8 1 <br />
+0.4 0 0.6 0.7 <br />
+0.8 0.6 0 0.3 <br />
+1 0.7 0.3 0 <br />
 
 
 ## Output Format:
-Space separated list of shop ids (i.e, shop’s type ids), where time slots are separated by bars and parallel markets are separated by line.
+Space separated list of shop ids (i.e, shop’s type ids), where time slots are separated by bars and parallel markets are separated by line. <br />
 
 ## Sample Output:
-1 2
+1 2 <br />
 3 4
 
