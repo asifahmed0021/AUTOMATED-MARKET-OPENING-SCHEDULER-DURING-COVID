@@ -33,8 +33,8 @@ G(Schedule) = s(1,2) + s(1,3) + s(1,4) + s(2,3) + s(2,4) + s(3,4) + s(5,6) + s(5
   + C x [d(1,13) + d(1,14)… d(2,13) + d(2,14) + … + d(5,17) + d(5,18) + …]
   
   
-## Input:
-Line 1: k: total types of shops opening in one time slot in one market
+## Input Format:
+Line 1: k: total types of shops opening in one time slot in one market <br />
 Line 2: m: number of parallel markets
 Line 3: T: number of time slots
 Line 4: C: trade-off constant
