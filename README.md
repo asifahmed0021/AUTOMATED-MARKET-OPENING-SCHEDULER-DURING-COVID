@@ -38,7 +38,8 @@ Line 1: k: total types of shops opening in one time slot in one market <br />
 Line 2: m: number of parallel markets <br />
 Line 3: T: number of time slots <br />
 Line 4: C: trade-off constant <br />
-Starting on the fifth line we have a space separated list of distances between a type of shop and rest others. Note that d(x,y) = d(y,x). Also, all d(x,x) = 0. <br />
+Starting on the fifth line we have a space separated list of distances between a type of shop and rest others. <br />
+d(x,y) = d(y,x). Also, all d(x,x) = 0. <br />
 
 ## Sample Input:
 2 <br />
