@@ -17,7 +17,7 @@ for i in range(N):
 #defining population size
 populationSize=100
 
-#genrate a member state for population
+#genrates a member state for population
 def generateRandomState():
     list=[]
     for _ in range(N):
